@@ -20,3 +20,4 @@ coverage
 *.lcov
 
 node_modules
+/output
