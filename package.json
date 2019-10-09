@@ -8,6 +8,7 @@
     "puppeteer": "^1.20.0"
   },
   "scripts": {
-    "codeceptjs-docs": "cd codeceptjs-docs/website && yarn start"
+    "codeceptjs-docs": "cd codeceptjs-docs/website && yarn start",
+    "test": "codeceptjs run --steps"
   }
 }
