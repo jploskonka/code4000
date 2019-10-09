@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang=""><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>CodeceptJS · SuperCharged End 2 End Testing with WebDriver &amp; Puppeteer</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="SuperCharged End 2 End Testing with WebDriver &amp; Puppeteer"/><meta property="og:title" content="CodeceptJS · SuperCharged End 2 End Testing with WebDriver &amp; Puppeteer"/><meta property="og:type" content="website"/><meta property="og:url" content="https://codecept.io/"/><meta property="og:description" content="SuperCharged End 2 End Testing with WebDriver &amp; Puppeteer"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/favicon/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-30075781-3"></script><script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'UA-30075781-3');
+            </script><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans"/><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo.svg" alt="CodeceptJS"/><h2 class="headerTitleWithLogo">CodeceptJS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/quickstart" target="_self">Quickstart</a></li><li class=""><a href="/basics" target="_self">Guides</a></li><li class="siteNavItemActive"><a href="/reference" target="_self">API</a></li><li class=""><a href="/changelog" target="_self">Releases</a></li><li class=""><a href="/help" target="_self">Support</a></li><li class=""><a href="https://github.com/Codeception/CodeceptJS" target="_self">GitHub</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container documentContainer postContainer referenceContainer"><div class="wrapper"><div class="productShowcaseSection" style="text-align:left"><h2>Reference</h2></div><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Reference</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">API</h3><ul class=""><li class="navListItem"><a class="navItem" href="/installation">Installation</a></li><li class="navListItem"><a class="navItem" href="/commands">Commands</a></li><li class="navListItem"><a class="navItem" href="/configuration">Configuration</a></li><li class="navListItem"><a class="navItem" href="/plugins">Plugins</a></li><li class="navListItem"><a class="navItem" href="/docker">Docker</a></li><li class="navListItem"><a class="navItem" href="/translation">Translation</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Driver Helpers</h3><ul class=""><li class="navListItem"><a class="navItem" href="/helpers/WebDriver">WebDriver</a></li><li class="navListItem"><a class="navItem" href="/helpers/Puppeteer">Puppeteer</a></li><li class="navListItem"><a class="navItem" href="/helpers/Protractor">Protractor</a></li><li class="navListItem"><a class="navItem" href="/helpers/TestCafe">TestCafe</a></li><li class="navListItem"><a class="navItem" href="/helpers/Nightmare">Nightmare</a></li><li class="navListItem"><a class="navItem" href="/helpers/Appium">Appium</a></li><li class="navListItem"><a class="navItem" href="/helpers/Detox">Detox</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Additional Helpers</h3><ul class=""><li class="navListItem"><a class="navItem" href="/helpers/REST">REST</a></li><li class="navListItem"><a class="navItem" href="/helpers/ApiDataFactory">ApiDataFactory</a></li><li class="navListItem"><a class="navItem" href="/helpers/GraphQL">GraphQL</a></li><li class="navListItem"><a class="navItem" href="/helpers/GraphQLDataFactory">GraphQLDataFactory</a></li><li class="navListItem"><a class="navItem" href="/helpers/MockRequest">MockRequest</a></li><li class="navListItem"><a class="navItem" href="/helpers/FileSystem">FileSystem</a></li><li class="navListItem"><a class="navItem" href="/community-helpers">Community Helpers</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="row"><p class="col-md-4 p-4 alert alert-warning">Practical tips in <a href="https://codecept.discourse.group/c/cookbook">Cookbook</a> »</p><p class="col-md-8 p-4 alert alert-light">For enterprise support <a href="http://sdclabs.com/trainings/web-automation-codeceptjs?utm_source=codecept.io&amp;utm_medium=top_menu&amp;utm_term=link&amp;utm_campaign=reference">trainings</a>, consulting, test automation. <a href="http://sdclabs.com/codeceptjs?utm_source=codecept.io&amp;utm_medium=top_2&amp;utm_term=link&amp;utm_campaign=reference">Contact us at SDCLabs!</a></p></div></div></div></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.svg" alt="CodeceptJS" width="66" height="58"/></a><div><h5>Docs</h5><a href="/quickstart">QuickStart</a><a href="/basics">Guides</a><a href="/reference">Reference</a></div><div><h5>Community</h5><a href="https://join.slack.com/t/codeceptjs/shared_invite/enQtMzA5OTM4NDM2MzA4LWE4MThhN2NmYTgxNTU5MTc4YzAyYWMwY2JkMmZlYWI5MWQ2MDM5MmRmYzZmYmNiNmY5NTAzM2EwMGIwOTNhOGQ">Slack Chat</a><a href="https://codecept.discourse.group" target="_blank" rel="noreferrer noopener">Community Forum</a><a href="http://stackoverflow.com/questions/tagged/codeceptjs" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://twitter.com/codeceptjs" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="https://github.com/Codeception/CodeceptJS">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/codeception/codeceptjs/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a><a href="http://sdclabs.com/codeceptjs?utm_source=codecept.io&amp;utm_medium=footer&amp;utm_term=link&amp;utm_campaign=reference">Commercial Support</a><a href="http://sdclabs.com/trainings/web-automation-codeceptjs?utm_source=codecept.io&amp;utm_medium=top_menu&amp;utm_term=link&amp;utm_campaign=reference">Trainings</a></div></section><section class="copyright">Copyright © 2019 CodeceptJS</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '0cc13a0af567a05fc38790be681b1491',
+                indexName: 'codecept',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
