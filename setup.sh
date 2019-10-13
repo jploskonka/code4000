@@ -20,7 +20,10 @@ npm install && (cd codeceptjs-docs && npm install)
 echo "Starting codeceptJS docs"
 (cd codeceptjs-docs/website && BROWSER=false npm start -- --no-watch &>/dev/null &)
 
-echo "Waiting 15 seconds for codeceptJS docs to start up..."
+echo "Starting TodoMVC docs"
+npm run todomvc &>/dev/null &
+
+echo "Waiting 15 seconds for codeceptJS docs & TodoMVC to start up..."
 sleep 15
 
 echo "Checking setup"
@@ -28,3 +31,6 @@ npm test
 
 echo "Killing codeceptJS docs"
 ps aux | grep docusaurus-start | grep -v grep | awk '{print $2 }' | xargs kill
+
+echo "Killing TodoMVC"
+ps aux | grep todomvc | grep -v grep | awk '{print $2 }' | xargs kill
