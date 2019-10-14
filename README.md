@@ -16,7 +16,7 @@ This will install necessary dependencies (nodejs, codeceptjs, local codeceptjs
 documentation) and then run sample codecept test to make sure everything works
 as expected. You should see output like this:
 
-![success setup output](./success-setup.jpg)
+![success setup output](./success-setup2.jpg)
 
 Please note that codeceptjs documentation is run on `localhost` at port `3000`
 so please make sure that there’s no any other application using it.
