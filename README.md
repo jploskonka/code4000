@@ -19,4 +19,5 @@ as expected. You should see output like this:
 ![success setup output](./success-setup2.jpg)
 
 Please note that codeceptjs documentation is run on `localhost` at port `3000`
-so please make sure that there’s no any other application using it.
+and todoMVC application on port `8080` so please make sure there’re no other
+applications using those ports.
