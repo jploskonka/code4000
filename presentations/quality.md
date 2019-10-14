@@ -1,6 +1,6 @@
 autoscale: true
 
-#[fit] Software quality
+#[fit] Quality? What?
 
 ---
 
@@ -81,7 +81,7 @@ autoscale: true
 
 ---
 
-# Challenges
+# Challenges?
 
 ---
 
@@ -93,7 +93,7 @@ autoscale: true
 
 ---
 
-# How to solve it?
+# How to solve them?
 
 ---
 
@@ -114,7 +114,15 @@ autoscale: true
 
 # Code review
 - Ask someone else to look at your code before getting to production
-- [ add sample image ]
+- Usually done in form of Pull Requests
+
+![inline fill](./images/cr2.jpg)
+
+---
+
+![inline](./images/cr1.jpg)
+![inline fill](./images/cr3.jpg)
+![inline](./images/cr4.jpg)
 
 ---
 
@@ -123,6 +131,10 @@ autoscale: true
 - for example:
   - eslint for javascript
   - rubocop for ruby
+
+---
+
+![inline](./images/approved.jpg)
 
 ---
 
@@ -150,8 +162,16 @@ autoscale: true
 
 ---
 
+# Manual testing problems
+- Assumes there’re more people working on product
+- Takes time
+- May be expensive to setup
+- Often repeats same steps
+
+---
+
 # Automated testing
-# wohoo!
+## Let computer test things for you!
 
 ---
 
@@ -186,4 +206,4 @@ autoscale: true
 
 ---
 
-# Let’s code!
+# Let’s write some tests!
