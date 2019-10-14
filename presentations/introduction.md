@@ -10,9 +10,7 @@ footer: created for [code4000](https://www.code4000.org/en) by [@jploskonka](htt
 - Ruby, JavaScript & CSS
 - Teaching coding as a hobby
 
----
-
-#[fit] Tjekvik kiosk photo if possible?
+![fit right](./images/kiosk.jpg)
 
 ---
 
@@ -35,4 +33,4 @@ footer: created for [code4000](https://www.code4000.org/en) by [@jploskonka](htt
 
 ---
 
-#[fit] Let’s rock!
+#[fit] Let’s start!
